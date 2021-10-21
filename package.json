@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/nufyatese/smartContracts/issues"
   },
-  "homepage": "https://github.com/nufyatese/smartContracts#readme"
+  "homepage": "https://github.com/nufyatese/smartContracts#readme",
+  "dependencies": {
+    "truffle": "^5.4.15"
+  }
 }

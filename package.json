@@ -30,5 +30,8 @@
     "solc": "^0.8.9",
     "truffle": "^5.4.15",
     "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.12.2"
   }
 }

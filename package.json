@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/nufyatese/smartContracts#readme",
   "dependencies": {
+    "solc": "^0.8.9",
     "truffle": "^5.4.15"
   }
 }

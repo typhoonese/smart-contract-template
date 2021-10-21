@@ -33,6 +33,7 @@
     "web3": "^1.6.0"
   },
   "devDependencies": {
-    "ganache-cli": "^6.12.2"
+    "ganache-cli": "^6.12.2",
+    "solhint": "^3.3.6"
   }
 }

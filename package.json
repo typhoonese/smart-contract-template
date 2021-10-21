@@ -1,0 +1,29 @@
+{
+  "name": "dapps",
+  "version": "1.0.0",
+  "description": "Packages to develop dapps",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test --network ganache-cli"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nufyatese/smartContracts.git"
+  },
+  "keywords": [
+    "solidity",
+    "smart",
+    "contract",
+    "dapp",
+    "ethereum"
+  ],
+  "author": "nufyatese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nufyatese/smartContracts/issues"
+  },
+  "homepage": "https://github.com/nufyatese/smartContracts#readme"
+}

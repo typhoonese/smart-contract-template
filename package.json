@@ -38,8 +38,12 @@
   "devDependencies": {
     "ganache-cli": "^6.12.2",
     "husky": "^7.0.4",
+    "lint-staged": "^11.2.6",
     "prettier": "^2.4.1",
     "prettier-plugin-solidity": "^1.0.0-beta.18",
     "solhint": "^3.3.6"
+  },
+  "lint-staged": {
+    "*.sol": "npx run solhint"
   }
 }

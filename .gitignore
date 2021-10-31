@@ -4,3 +4,14 @@ node_modules
 #package-lock.json
 package-lock.json
 
+#blockchain build
+build/
+
+#dotenv environment variable files
+.env
+
+#smart contract unit testing coverage
+coverage/
+
+#mac os
+.DS_Store

@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/nufyatese/smartContracts#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "solc": "^0.8.9",
     "truffle": "^5.4.15",
     "web3": "^1.6.0"

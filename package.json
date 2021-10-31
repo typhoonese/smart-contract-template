@@ -1,7 +1,7 @@
 {
   "name": "smart-contract-repo-skelaton",
   "version": "1.0.0",
-  "description": "Packages to develop dapps",
+  "description": "Smart contract skelaton for a quick start development",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"

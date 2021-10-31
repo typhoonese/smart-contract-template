@@ -7,7 +7,7 @@
     "printWidth": 120,
     "jsxSingleQuite": false,
     "arrowParens": "always",
-    "bracketSpacing": "true",
+    "bracketSpacing": true,
     "overrides:": [
         {
             "files": "*.sol",

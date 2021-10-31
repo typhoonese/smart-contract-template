@@ -9,7 +9,8 @@
   "scripts": {
     "test:local": "npx truffle test --network ganache-cli",
     "ganache:local": "npx ganache-cli",
-    "lint:contracts": "npx solhint 'contracts/**/*.sol'"
+    "lint:contracts": "npx solhint 'contracts/**/*.sol'",
+    "format:prettier": "npx prettier --write"
   },
   "repository": {
     "type": "git",
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "ganache-cli": "^6.12.2",
+    "prettier": "^2.4.1",
     "prettier-plugin-solidity": "^1.0.0-beta.18",
     "solhint": "^3.3.6"
   }

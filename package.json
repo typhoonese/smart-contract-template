@@ -7,8 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test:local": "npx truffle test --network ganache-cli",
-    "ganache:local": "npx ganache-cli",
+    "test:local": "npx truffle test --network ganache_cli_quorum",
+    "ganache-quorum:local": "npx ganache-cli --gasPrice 0 --gasLimit 700000000 --allowUnlimitedContractSize",
     "lint:contracts": "npx solhint 'contracts/**/*.sol'",
     "format:prettier": "npx prettier --write",
     "prepare": "husky install"

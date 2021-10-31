@@ -1,5 +1,5 @@
 {
-  "name": "dapps",
+  "name": "smart-contract-repo-skelaton",
   "version": "1.0.0",
   "description": "Packages to develop dapps",
   "main": "truffle-config.js",

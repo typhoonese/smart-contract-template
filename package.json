@@ -7,9 +7,9 @@
     "test": "test"
   },
   "scripts": {
-    "test": "npx truffle test --network ganache-cli",
+    "test:local": "npx truffle test --network ganache-cli",
     "local-network": "npx ganache-cli",
-    "lint-contracts": "npx solhint 'contracts/**/*.sol'"
+    "lint:contracts": "npx solhint 'contracts/**/*.sol'"
   },
   "repository": {
     "type": "git",

@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "ganache-cli": "^6.12.2",
+    "prettier-plugin-solidity": "^1.0.0-beta.18",
     "solhint": "^3.3.6"
   }
 }

@@ -1,5 +1,7 @@
 module.exports = {
   networks: {
+    //@notice ganache_cli_quorum is set to behave like a quorum network
+    //gasPrice = 0, gasLimit = 700000000, type = 'quorum
     ganache_cli_quorum: {
       host: '127.0.0.1',
       port: 8545,
@@ -9,12 +11,12 @@ module.exports = {
       type: 'quorum',
     },
   },
-  // Set default mocha options here, use special reporters etc.
+  // Mocha configurations
   mocha: {
-    // timeout: 100000
+    timeout: 100000,
   },
 
-  // Configure your compilers
+  // Solc compiler configuration
   compilers: {
     solc: {
       settings: {

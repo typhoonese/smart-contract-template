@@ -1,10 +1,10 @@
 {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": false,
-    "prettier.configPath": ".prettierrc",
-    "solidity.formatter": "prettier",
-    "[solidity]": {
-        "editor.defaultFormatter": "JuanBlanco.solidity"
-    }
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "prettier.configPath": ".prettierrc",
+  "solidity.formatter": "prettier",
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+  }
 }

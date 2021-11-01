@@ -49,6 +49,6 @@
     "solidity-coverage": "^0.7.17"
   },
   "lint-staged": {
-    "*.sol": "npx run solhint"
+    "*.sol": "npm run lint:contracts"
   }
 }

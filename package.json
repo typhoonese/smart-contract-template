@@ -23,7 +23,8 @@
     "smart",
     "contract",
     "dapp",
-    "ethereum"
+    "ethereum",
+    "quorum"
   ],
   "author": "typhoonese",
   "license": "ISC",

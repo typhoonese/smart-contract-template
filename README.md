@@ -1,6 +1,6 @@
-#Quorum Smart Contract Development Boilerplate
+## Smart Contract Development Boilerplate on Quorum
 
-## This template aims to kick start smart contract development with ease. Here is a list of pre-configurations:
+# This template aims to kick start smart contract development with ease. Here is a list of what is included:
 
 1. git hooks with husky for pre-commit linting
 2. recommended extensions such as Juan Blanco solidity extension for vs code

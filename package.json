@@ -41,6 +41,7 @@
     "web3": "^1.6.0"
   },
   "devDependencies": {
+    "bn-chai": "^1.0.1",
     "chai": "^4.3.4",
     "ganache-cli": "^6.12.2",
     "husky": "^7.0.4",

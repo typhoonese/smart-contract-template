@@ -8,6 +8,7 @@
   },
   "scripts": {
     "test:local": "npx truffle test --network ganache_cli_quorum",
+    "migrate:local": "npx truffle migrate --network ganache_cli_quorum --reset",
     "ganache-quorum:local": "npx ganache-cli --gasPrice 0 --gasLimit 700000000 --allowUnlimitedContractSize",
     "lint:contracts": "npx solhint 'contracts/**/*.sol'",
     "format:prettier": "npx prettier --write",
@@ -15,21 +16,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nufyatese/smartContracts.git"
+    "url": "git+https://github.com/typhoonese/smartContracts.git"
   },
   "keywords": [
     "solidity",
     "smart",
     "contract",
     "dapp",
-    "ethereum"
+    "ethereum",
+    "quorum"
   ],
-  "author": "nufyatese",
+  "author": "typhoonese",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nufyatese/smartContracts/issues"
+    "url": "https://github.com/typhoonese/smartContracts/issues"
   },
-  "homepage": "https://github.com/nufyatese/smartContracts#readme",
+  "homepage": "https://github.com/typhoonese/smartContracts#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "rimraf": "^3.0.2",
@@ -39,6 +41,8 @@
     "web3": "^1.6.0"
   },
   "devDependencies": {
+    "bn-chai": "^1.0.1",
+    "chai": "^4.3.4",
     "ganache-cli": "^6.12.2",
     "husky": "^7.0.4",
     "lint-staged": "^11.2.6",

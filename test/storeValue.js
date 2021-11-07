@@ -7,7 +7,6 @@ const { expect } = require('chai');
 const BN = web3.utils.toBN;
 const chai = require('chai');
 const bnChai = require('bn-chai');
-const { context } = require('fast-check');
 chai.use(bnChai(BN));
 
 //test constants

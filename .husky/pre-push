@@ -1,5 +1,5 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run ganache-quorum:local&
-npm run local:test
+npm run ganache-quorum:local& 
+npm run test:local

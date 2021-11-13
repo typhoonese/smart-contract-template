@@ -47,7 +47,7 @@ To lint .js files: `npm run lint:js`
 
 `npm run format:prettier`
 
-## Troubleshooting
+## Troubleshoot
 
 This repo is developed using Ubuntu 18.04.
 

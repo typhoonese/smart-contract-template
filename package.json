@@ -10,6 +10,7 @@
     "test:local": "npx truffle test --network ganache_cli_quorum",
     "migrate:local": "npx truffle migrate --network ganache_cli_quorum --reset",
     "ganache-quorum:local": "npx ganache-cli --gasPrice 0 --gasLimit 700000000 --allowUnlimitedContractSize",
+    "lint": "npx solhint 'contracts/**/*.sol' && npx eslint --ignore-path .gitignore .",
     "lint:contracts": "npx solhint 'contracts/**/*.sol'",
     "lint:js": "npx eslint --ignore-path .gitignore .",
     "format:prettier": "npx prettier --write",
@@ -25,7 +26,10 @@
     "contract",
     "dapp",
     "ethereum",
-    "quorum"
+    "consensys",
+    "quorum",
+    "truffle",
+    "web3"
   ],
   "author": "typhoonese",
   "license": "ISC",

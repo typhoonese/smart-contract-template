@@ -46,3 +46,10 @@ To lint .js files: `npm run lint:js`
 ### Format
 
 `npm run format:prettier`
+
+## Troubleshooting
+
+This repo is developed using Ubuntu 18.04.
+
+**_Windows Users:_**  
+Windows users might benefit from using [WSL](https://docs.microsoft.com/en-us/windows/wsl/) while running the commands above.

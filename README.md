@@ -52,4 +52,4 @@ To lint .js files: `npm run lint:js`
 This repo is developed using Ubuntu 18.04.
 
 **_Windows Users:_**  
-Windows users might benefit from using [WSL](https://docs.microsoft.com/en-us/windows/wsl/) while running the commands above.
+Windows users might benefit from using [WSL 2](https://docs.microsoft.com/en-us/windows/wsl/) while running the commands above. The recommended extension can be found in `.vscode/extensions.json`

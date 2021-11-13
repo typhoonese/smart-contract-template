@@ -11,6 +11,7 @@
     "migrate:local": "npx truffle migrate --network ganache_cli_quorum --reset",
     "ganache-quorum:local": "npx ganache-cli --gasPrice 0 --gasLimit 700000000 --allowUnlimitedContractSize",
     "lint:contracts": "npx solhint 'contracts/**/*.sol'",
+    "lint:js": "npx eslint --ignore-path .gitignore .",
     "format:prettier": "npx prettier --write",
     "prepare": "husky install"
   },
@@ -58,6 +59,7 @@
     "solidity-coverage": "^0.7.17"
   },
   "lint-staged": {
-    "*.sol": "npm run lint:contracts"
+    "*.sol": "npm run lint:contracts",
+    "*.js": "npm run lint:js"
   }
 }

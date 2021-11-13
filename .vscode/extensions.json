@@ -1,3 +1,9 @@
 {
-  "recommendations": ["esbenp.prettier-vscode", "juanblanco.solidity", "dbaeumer.vscode-eslint", "eamodio.gitlens"]
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "juanblanco.solidity",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "ms-vscode-remote.remote-wsl"
+  ]
 }

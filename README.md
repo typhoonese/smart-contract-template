@@ -1,11 +1,49 @@
-## Smart Contract Development Boilerplate on Quorum
+# Smart Contract Engineering Template for Ethereum & ConsenSys Quorum
 
-# This template aims to kick start smart contract development with ease. Here is a list of what is included:
+A complete template to kick start smart contract engineering with ease.
 
-1. git hooks with husky for pre-commit linting
-2. recommended extensions such as Juan Blanco for vs code
+**_Features:_**
+
+1. git hooks with husky for pre-commit linting & pre-push smart contract testing
+2. recommended extensions for Solidity and JavaScript development
 3. configured prettier for .js and .sol files
-4. sample contract, interface, object directory structures
+4. sample project skelaton for smart contract engineering
 5. sample tests with mocha using ganache cli
 6. migrations to a ganache cli network using truffle
-7. configured linting for .sol files
+7. configured linting for .sol and .js files
+
+## Installing
+
+### Clone repo
+
+HTTPS:
+`git clone https://github.com/typhoonese/smart-contracts.git`
+
+### Install
+
+`npm install`
+
+### Running Ganache CLI for Quorum
+
+`npm ganache-quorum:local`
+In this mode, the ganache cli is configured to act more like a Quorum network.
+
+### Smart Contract Migration
+
+`npm run migrate:local`
+Prior to this command, a running ganache network is required. See above for how to run a ganache network locally.
+
+### Testing with Ganache CLI
+
+`npm run test:local`
+Prior to this command, a running ganache network is required. See above for how to run a ganache network locally.
+
+### Linting
+
+To lint the project: `npm run lint`
+To lint .sol files: `npm run lint:contracts'
+To lint js files: 'npm run lint:js'
+
+### Formatting
+
+`npm run format:prettier`

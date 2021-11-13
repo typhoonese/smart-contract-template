@@ -1,5 +1,5 @@
 {
-  "extends": ["eslint:recommended", "plugin:node/recommended"],
+  "extends": ["eslint:recommended", "plugin:node/recommended", "plugin:mocha/recommended"],
   "globals": {
     "artifacts": "readonly",
     "contract": "readonly",
@@ -164,7 +164,10 @@
     "node/handle-callback-err": [2, "^(err|error)$"],
     "node/no-callback-literal": 2,
     "node/no-new-require": 2,
-    "node/no-path-concat": 2
+    "node/no-path-concat": 2,
+
+    //mocha
+    "mocha/no-mocha-arrows": 1
   },
   "overrides": [
     {

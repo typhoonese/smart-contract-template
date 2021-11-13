@@ -12,38 +12,37 @@ A complete template to kick start smart contract engineering with ease.
 6. migrations to a ganache cli network using truffle
 7. configured linting for .sol and .js files
 
-## Installing
+## HOW TO
 
 ### Clone repo
 
-HTTPS:
 `git clone https://github.com/typhoonese/smart-contracts.git`
 
 ### Install
 
 `npm install`
 
-### Running Ganache CLI for Quorum
+### Run Ganache CLI for Quorum
 
-`npm ganache-quorum:local`
+`npm ganache-quorum:local`  
 In this mode, the ganache cli is configured to act more like a Quorum network.
 
-### Smart Contract Migration
+### Migrate Smart Contracts
 
-`npm run migrate:local`
+`npm run migrate:local`  
 Prior to this command, a running ganache network is required. See above for how to run a ganache network locally.
 
-### Testing with Ganache CLI
+### Test Smart Contracts with Local Ganache CLI
 
-`npm run test:local`
+`npm run test:local`  
 Prior to this command, a running ganache network is required. See above for how to run a ganache network locally.
 
-### Linting
+### Lint
 
-To lint the project: `npm run lint`
-To lint .sol files: `npm run lint:contracts'
-To lint js files: 'npm run lint:js'
+To lint the project: `npm run lint`  
+To lint .sol files: `npm run lint:contracts`  
+To lint .js files: `npm run lint:js`
 
-### Formatting
+### Format
 
 `npm run format:prettier`
